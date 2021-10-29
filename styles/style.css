@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html {
+    width: 100%;
+}
+
 .header-top {
     background-color: #E87B56;
 }
@@ -37,8 +41,58 @@
 
 .bg-paralax {
     height: 831px;
-    background-image: url(../images/background-food1.png);
+    background: linear-gradient(rgba(0,0,0,.0),rgba(0,0,0,.5)),url(../images/background-food1.png);
+    /*background-image: url(../images/background-food1.png);*/
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+.presentation {
+    width: 500px;
+    align-self: center;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.presentation img {
+    width: 150px;
+    margin: 10px 10px;
+}
+
+.presentation h1 {
+    font-size: 28px;
+}
+
+.presentation p{
+    font-size: 22px;
+}
+
+.section-card{
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.article-card{
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin: 0 30px;
+    padding: 20px 5px;
+    background-color: #E87B56;
+    border-radius: 10px;
+    color: white;
+}
+
+.container-card  img{
+    height: 100px;
 }
