@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header-top {
+    background-color: #E87B56;
+}
+
+.container-header {
+    display: flex;
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+.logo-header {
+    height: 50px;
+    margin: 10px;
+}
+
+.container-navigate-links {
+    display: flex;
+    height: 100%;
+    margin: auto 0;
+}
+
+.container-navigate-links a{
+    text-decoration: none;
+    height: 100%;
+    color: white;
+    font: 24px Arial;
+    margin: 0 10px;
+}
+
+.bg-paralax {
+    height: 831px;
+    background-image: url(../images/background-food1.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+}
