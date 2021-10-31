@@ -6,6 +6,7 @@
 
 html, body {
     width: 100%;
+    height: 100%;
 }
 
 .header-top {
@@ -56,7 +57,7 @@ html, body {
     align-self: center;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    color: white;
+    color: #f3f3f3;
     border-radius: 10px;
     padding: 20px;
 }
@@ -80,7 +81,7 @@ html, body {
     padding: 100px 0;
 }
 
-.article-card{
+.li-card{
     width: 350px;
     display: flex;
     justify-content: center;
@@ -105,21 +106,60 @@ html, body {
     padding: 50px 0;
 }
 
-.photos-and-description div {
+.photos-and-description > div {
     width: 70%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: justify;
     color: white;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.galery-images div {
-    background-size: cover;
-    align-self: center;
-}
-
-.img-restaurante {
-    border-radius: 10px;
+.container-img-arrows {
+    display: flex;
+    justify-content: space-around;
     margin-bottom: 30px;
+}
+
+.img-carousel {
+    width: 500px;
+    border-radius: 10px;
+    box-shadow: rgba(66, 66, 66, 0.5) 6px 6px 6px;
+}
+
+.photos-and-description h2 {
+    text-align: center;
+}
+
+#map {
+    height: 60%;
+    width: 60%;
+    margin: 50px auto;
+    border-radius: 10px;
+}
+
+.location-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: -30px;
+    margin-bottom: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #5F6368;
+}
+
+footer{
+    height: 250px;
+    width: 100%;
+    background-color: #944f38;
+    display: grid;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px;
+}
+
+footer h3 {
+    color: white;
 }
