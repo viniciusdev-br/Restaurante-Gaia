@@ -61,7 +61,7 @@ body {
 
 .bg-paralax {
     height: 60vh;
-    background: url(../images/background-food1.png);
+    background: url(../images/teste-bg.png);
     /*background-image: url(../images/background-food1.png);*/
     background-repeat: no-repeat;
     background-attachment: fixed;
