@@ -61,7 +61,7 @@ body {
 
 .bg-paralax {
     height: 100vh;
-    background: linear-gradient(rgba(0,0,0,.0),rgba(0,0,0,.9)),url(../images/background-food1.png);
+    background: url(../images/background-food1.png);
     /*background-image: url(../images/background-food1.png);*/
     background-repeat: no-repeat;
     background-attachment: fixed;
