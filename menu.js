@@ -10,3 +10,9 @@ menuToggle.addEventListener("click", () => {
     menuSection.classList.toggle("on", show)
     show = !show;
 })
+
+function jumpTo() {
+    const menuSection = document.querySelector(".menu-section")
+    document.body.style.overflow = "initial"
+    menuSection.classList.toggle("on", false)
+}

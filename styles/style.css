@@ -30,7 +30,7 @@ header .container {
     justify-content: space-between;
   
     width: 90%;
-    max-width: 980px;
+    max-width: 1280px;
     
     margin: auto;
   }
@@ -45,12 +45,16 @@ header .container {
   }
   
   header nav ul li a {
+    display: flex;
     text-decoration: none;
     color: white;
     text-transform: uppercase;
     font: 1.8rem Arial;
     padding: 2.4rem;
     transition: all 250ms linear 0s;
+  }
+  header nav ul li a span{
+    margin: auto 3px;
   }
 
 .container-header {
@@ -90,10 +94,11 @@ header .container {
 header nav ul li a:hover {
     background-color: white;
     color: #E87B56;
+    height: 100%;
     font-size: 2.2rem;
     padding: 7px 15px;
     border-radius: 7px;
-    transition: all .5s;
+    transition: all .3s;
 }
 
 .bg-paralax {
@@ -260,7 +265,7 @@ footer h3 {
         width: 100%;
         margin: 6px auto;
 
-        transition-duration: 0.3s;
+        transition-duration: 0.4s;
     }
 
     .menu-toggle {
@@ -278,7 +283,7 @@ footer h3 {
         width: 100vw;
         height: 100vh;
 
-        background-color: #7159c1;
+        background-color: #E87B56;
         
         z-index: 10;
 
@@ -332,6 +337,10 @@ footer h3 {
 
     .container-img-arrows p{
         font-size: 1.6rem;
+    }
+
+    #link-map, #link-contato {
+        display: none;
     }
 }
 
