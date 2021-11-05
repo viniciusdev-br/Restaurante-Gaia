@@ -18,20 +18,6 @@
 </head>
 <body>
     <header>
-        <!-- <div class="container-header">
-            <a href="index.html"><img class="logo-header" src="assets/logo-header.svg" alt="Logo do restaurante"></a>
-            <div class="menu-toggle">
-                <div class="one"></div>
-                <div class="two"></div>
-                <div class="three"></div>
-              </div>
-            <nav class="container-navigate-links"> 
-                <a href="#menu-food"><span class="material-icons-outlined">menu_book</span><span>Cardápio</span></a>
-                <a href="#bufe"><span class="material-icons-outlined">restaurant_menu</span><span>Bufê</span></a>
-                <a href="#push-map"><span class="material-icons-outlined md-10">location_on</span><span>Local</span></a>
-                <a href="#contatos"><span class="material-icons-outlined">contact_page</span><span>Contato</span></a>
-            </nav>
-        </div> -->
         <div class="container">
             <a href="index.html"><img class="logo-header" src="assets/logo-header.svg" alt="Logo do restaurante"></a>
             <div class="menu-section">
@@ -68,7 +54,7 @@
         <ul class="ul-card" title="Cardápio">
             <li class="li-card">
                 <div class="container-card">
-                    <img src="./assets/plate-food.svg" alt="imagem da comida">
+                    <img src="./images/prato1.jpg" alt="imagem da comida">
                     <h3>Bife só o fila</h3>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias culpa suscipit nesciunt exercitationem ipsam.Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p>
                 </div>
@@ -76,7 +62,7 @@
 
             <li class="li-card">
                 <div class="container-card">
-                    <img src="./assets/plate-food.svg" alt="imagem da comida">
+                    <img src="./images/prato2.jpg" alt="imagem da comida">
                     <h3>Macarrão Show</h3>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias culpa suscipit nesciunt exercitationem ipsam.Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p>
                 </div>
@@ -84,7 +70,7 @@
 
             <li class="li-card">
                 <div class="container-card">
-                    <img src="./assets/plate-food.svg" alt="imagem da comida">
+                    <img src="./images/prato3.jpg" alt="imagem da comida">
                     <h3>Sopa Top</h3>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias culpa suscipit nesciunt exercitationem ipsam.Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p>
                 </div>
@@ -92,6 +78,35 @@
         </ul>
     </section>
     
+    <section class="carousel">
+        <ul class="carousel__viewport">
+          <li id="carousel__slide1"  class="carousel__slide">
+            <div class="carousel__snapper">
+                <div class="container-card">
+                    <img src="./images/prato1.jpg" alt="imagem da comida">
+                    <h3>Macarrão Show</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias culpa suscipit nesciunt exercitationem ipsam.Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p>
+                </div>
+            </div>
+          </li>
+          <li id="carousel__slide2"  class="carousel__slide">
+            <div class="carousel__snapper">
+            <div class="container-card">
+                <img src="./images/prato2.jpg" alt="imagem da comida">
+                <h3>Bife só o fila</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias culpa suscipit nesciunt exercitationem ipsam.Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p>
+            </div>
+          </li>
+          <li id="carousel__slide3"  class="carousel__slide">
+            <div class="carousel__snapper">
+            <div class="container-card">
+                <img src="./images/prato3.jpg" alt="imagem da comida">
+                <h3>Sopa Top</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias culpa suscipit nesciunt exercitationem ipsam.Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p>
+            </div>
+          </li>
+        </ul>
+      </section>
 
     <section class="photos-and-description" id="bufe">
         <div class="galery-images">
@@ -122,7 +137,16 @@
     
 
     <footer id="contatos">
-        <h3>Contatos</h3>
+        <div class="footer">
+            <h3>Contatos</h3>
+            <div class="container-footer">
+                <ul>
+                    <li><a href="https://wa.me/5591983679016?text=Conheci%20voce%20pelo%20site"><img src="assets/whatsapp-logo.png" alt="whatsapp-logo"></a> <span>Faça seu pedido agora!</span></li>
+                    <li><a href="https://www.facebook.com/"><img src="./assets/facebook-logo.png" alt="facebook-logo"></a><span>Veja nossos eventos!</span></li>
+                    <li><a href="https://www.instagram.com/"><img src="./assets/instagram.png" alt="instagram"></a><span>@restaurente.bom</span></li>
+                </ul>
+            </div>
+        </div>
     </footer>
     <script>
         var mymap = L.map('maps').setView([-1.403598, -48.430719], 16);
