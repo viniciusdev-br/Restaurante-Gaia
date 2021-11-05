@@ -292,7 +292,7 @@ li {
   .carousel {
     position: relative;
     height: 80vh;
-    margin: 50px auto;
+    margin: 30px auto;
     display: none;
     padding-top: 75%;
     filter: drop-shadow(0 0 10px #0003);
