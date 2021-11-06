@@ -110,7 +110,7 @@ header nav ul li a:hover {
     justify-content: center;
 }
 
-.bg-paralax h1 {
+.bg-paralax h1,img {
   visibility: hidden;
 }
 
