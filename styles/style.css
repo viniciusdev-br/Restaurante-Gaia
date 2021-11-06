@@ -110,6 +110,10 @@ header nav ul li a:hover {
     justify-content: center;
 }
 
+.bg-paralax h1 {
+  visibility: hidden;
+}
+
 .btn-container {
   width: 100%;
   display: flex;
