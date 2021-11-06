@@ -110,6 +110,39 @@ header nav ul li a:hover {
     justify-content: center;
 }
 
+.btn-container {
+  width: 100%;
+  display: flex;
+  margin-top: -40px;
+}
+
+.whatsapp-btn {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  background-color: #25D366;
+  color: #fff;
+  margin: 10px auto;
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#whats-btn-mobile {
+  display: none;
+}
+
+.whatsapp-btn span {
+  margin-left: 10px;
+}
+
+.whatsapp-btn img {
+  width: 40px;
+}
+
 .container-menu {
     display: flex;
     width: 100%;
@@ -378,7 +411,12 @@ footer h3 {
     color: #fff;
     font-size: 1.5rem;
     display: flex;
+    justify-content: space-around;
     padding-top: 30px;
+}
+
+.container-footer img {
+  width: 100px;
 }
 
 .container-footer ul {
@@ -541,6 +579,16 @@ footer h3 {
         margin-left: 10px;
     }
 }
+
+@media (max-width:394px){
+  #whats-btn-mobile {
+    display: flex;
+    margin-top: 20;
+  }
+  #whats-btn-desktop{
+    display: none;
+  }
+} 
 
 @media (max-width: 355px) {
     .img-carousel {
